@@ -1,0 +1,27 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ul, li {
+  display :inline;
+  list-style-type :none;
+}
+h1 {
+  color: black;
+}
+header {
+  background-color :white;
+}
+
+main {
+  height :  650px;
+  background-image : url('https://images.pexels.com/photos/977736/pexels-photo-977736.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260')
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
