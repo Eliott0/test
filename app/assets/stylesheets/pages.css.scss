@@ -2,53 +2,63 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+html { 
+  background-image: url('/assets/vieux-gobelins.jpg');/*('https://i.pinimg.com/originals/0a/b7/b3/0ab7b3dde116bd7136ffc1e8f902b036.jpg') no-repeat center center fixed; */
+  background-size:cover; 
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  height:100%;
+}
 ul, li {
   display :inline;
   list-style-type :none;
   display: flex;
   justify-content: center;
-  margin-left: 50px;
+  margin-left: 70px;
   margin-right: 50px;
-  font-size:25px;
-  
+  font-size:25px; 
 }
-
+.titre {
+  padding-top:50px;
+}
+.titremain {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.logo {
+  height: 30px;
+  width:30px;
+}
 ul {
   padding: 20px;
   size: 20px;
-
 }
-
-ul, li, a {
-  
-}
-
 h1 {
-  color: black;
+  color: white; 
   text-align:center;
 }
 header {
-  background-image : url('https://cdn.pixabay.com/photo/2016/09/04/20/14/sunset-1645105__340.jpg');
+  /*background-image : url('https://cdn.pixabay.com/photo/2016/09/04/20/14/sunset-1645105__340.jpg');*/
   height: 200px;
   margin:0;
+  opacity: 0.9;
 }
-
 main {
   height :  650px;
-  background-image : url('https://images.pexels.com/photos/977736/pexels-photo-977736.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  /*background-image : url('https://images.pexels.com/photos/977736/pexels-photo-977736.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');*/
   text-align:center;
-  margin:auto;
+  margin:0;
 }
-
 footer {
    position:absolute;
    bottom:0;
    width:100%;
    height:100px;   /* Height of the footer */
-   background:#6cf;
    margin:0;
 }
 button {
   text-align: center;
 }
+
 
