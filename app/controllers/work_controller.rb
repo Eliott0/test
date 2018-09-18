@@ -1,4 +1,4 @@
 class WorkController < ApplicationController
-	def index
+	def base
 	end
 end

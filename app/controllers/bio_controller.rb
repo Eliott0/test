@@ -1,4 +1,4 @@
 class BioController < ApplicationController
-	def index
+	def base
 	end
 end
